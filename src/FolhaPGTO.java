@@ -10,16 +10,22 @@ public class FolhaPGTO {
 
         men1.imprimir();
 
+        System.out.println("");
+
         men2 = new Mensalista("Letícia", "Rua da Vitória", 0, "Senior");
         men2.calcularSalario();
         men2.calcINSS();
 
         men2.imprimir();
 
+        System.out.println("");
+
         hora1 = new Horista("Renatha", "Rua Floriano Peixoto", 0, 180, 27.50);
         hora1.calcularSalarioHoras();
 
         hora1.imprimir();
+
+        System.out.println("");
 
         hora2 = new Horista("Alexandre", "Rua Coronel Pereira Neto", 0, 10, 28);
         hora2.calcularSalarioHoras();
